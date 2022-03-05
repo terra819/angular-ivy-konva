@@ -1,5 +1,4 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { KonvaComponent } from 'ng2-konva';
 import { of, Observable, BehaviorSubject } from 'rxjs';
 import * as _ from 'underscore';
 
@@ -10,7 +9,6 @@ import * as _ from 'underscore';
   styles: ['canvas { border-style: solid }']
 })
 export class AppComponent {
-  @ViewChild('layer') layer: KonvaComponent;
   @ViewChild('canvas', { static: true })
   canvas: ElementRef<HTMLCanvasElement>;  
   
@@ -19,7 +17,6 @@ export class AppComponent {
     width: 828,
     height: 797,
   });
-  public list = [];
   public strips = [];
   public circles = [
     {
@@ -103,9 +100,7 @@ export class AppComponent {
     this.drawCircles();
   }
   public drawCircles() {
-    this.list = [];
     this.circles.forEach((circle) => {
-      this.drawCircle(circle);
       this.drawCircleOnCanvas(circle);
     });
     this.generateCode();
@@ -116,18 +111,6 @@ export class AppComponent {
     this.ctx.fillStyle = 'red';
     this.ctx.stroke();
     this.ctx.fill();
-  }
-  protected drawCircle(circle) {
-    this.list.push(
-      new BehaviorSubject({
-        x: circle.positionX,
-        y: circle.positionY,
-        radius: circle.radius,
-        fill: this.rgbToHex(circle.rValue, circle.gValue, circle.bValue),
-        stroke: 'black',
-        strokeWidth: 2,
-      })
-    );
   }
   public generateCode() {
     this.code = 'generated';
