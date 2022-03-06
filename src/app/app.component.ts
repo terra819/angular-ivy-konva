@@ -35,7 +35,7 @@ export class AppComponent {
         { strip: 'C', index: 1 },
       ],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -44,7 +44,7 @@ export class AppComponent {
       radius: 7,
       pixels: [{ strip: 'A', index: 4 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -53,7 +53,7 @@ export class AppComponent {
       radius: 7,
       pixels: [{ strip: 'A', index: 5 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -62,7 +62,7 @@ export class AppComponent {
       radius: 7,
       pixels: [{ strip: 'A', index: 6 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -71,7 +71,7 @@ export class AppComponent {
       radius: 7,
       pixels: [{ strip: 'A', index: 7 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -80,7 +80,7 @@ export class AppComponent {
       radius: 7,
       pixels: [{ strip: 'A', index: 8 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -89,7 +89,7 @@ export class AppComponent {
       radius: 7,
       pixels: [{ strip: 'A', index: 9 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -98,7 +98,7 @@ export class AppComponent {
       radius: 9,
       pixels: [{ strip: 'A', index: 10 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -107,7 +107,7 @@ export class AppComponent {
       radius: 11,
       pixels: [{ strip: 'A', index: 11 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -116,7 +116,7 @@ export class AppComponent {
       radius: 9,
       pixels: [{ strip: 'A', index: 12 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -125,7 +125,7 @@ export class AppComponent {
       radius: 11,
       pixels: [{ strip: 'A', index: 13 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -386,7 +386,7 @@ export class AppComponent {
       radius: 17,
       pixels: [{ strip: 'A', index: 41 }],
       rValue: 255,
-      gValue: 255,
+      gValue: 0,
       bValue: 0,
     },
     {
@@ -507,7 +507,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 371,
@@ -528,7 +528,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 285,
@@ -549,7 +549,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 214,
@@ -597,7 +597,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 128,
@@ -609,7 +609,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 111,
@@ -621,7 +621,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 105,
@@ -633,7 +633,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 62,
@@ -645,7 +645,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 91,
@@ -657,7 +657,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 63,
@@ -669,7 +669,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 112,
@@ -681,7 +681,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 128,
@@ -693,7 +693,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 170,
@@ -714,7 +714,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 168,
@@ -726,7 +726,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 105,
@@ -738,7 +738,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 187,
@@ -750,7 +750,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 254,
@@ -762,7 +762,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 294,
@@ -774,7 +774,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
     {
       positionX: 361,
@@ -786,7 +786,7 @@ export class AppComponent {
       ],
       rValue: 255,
       gValue: 0,
-      bValue: 255,
+      bValue: 0,
     },
   ];
   code = 'code';
@@ -795,7 +795,6 @@ export class AppComponent {
     this.drawCircles();
   }
   public drawCircles() {
-    this.ctx.clearRect(0, 0, this.canvas.nativeElement.width, this.canvas.nativeElement.height);
     this.circles.forEach((circle) => {
       this.drawCircleOnCanvas(circle);
     });
@@ -828,7 +827,7 @@ export class AppComponent {
     circle.rValue = this.penColor[0];
     circle.gValue = this.penColor[1];
     circle.bValue = this.penColor[2];
-    this.drawCircles();
+    this.drawCircleOnCanvas(circle);
   }
   public generateCode() {
     this.code = 'generated';
