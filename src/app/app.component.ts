@@ -802,12 +802,6 @@ export class AppComponent {
     this.generateCode();
   }
   protected drawCircleOnCanvas(circle) {
-    // this.ctx.beginPath();
-    // this.ctx.arc(circle.positionX, circle.positionY, circle.radius, 0, 2 * Math.PI);
-    // this.ctx.fillStyle = this.rgbToHex(circle.rValue, circle.gValue, circle.bValue);
-    // this.ctx.stroke();
-    // this.ctx.fill();
-
     const circlePath = new Path2D();
     circlePath.arc(
       circle.positionX,
