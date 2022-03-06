@@ -16,7 +16,7 @@ export class AppComponent {
     width: 828,
     height: 797,
   });
-  color = 'green';
+  color = '#ffffff';
   public strips = [];
   public circles = data;
   public code = 'code';
@@ -60,9 +60,10 @@ export class AppComponent {
     });
   }
   public paintCircle(circle) {
-    circle.rValue = 255;
-    circle.gValue = 255;
-    circle.bValue = 255;
+    var rgbValue = this.hexToRgb(this.color);
+    circle.rValue = rgbValue.r;
+    circle.gValue = rgbValue.g;
+    circle.bValue = rgbValue.b;
     this.drawCircleOnCanvas(circle);
   }
   public generateCode() {
@@ -102,4 +103,13 @@ export class AppComponent {
         return hex.length === 1 ? '0' + hex : hex;
       })
       .join('');
+
+  public hexToRgb(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+      r: parseInt(result[1], 16),
+      g: parseInt(result[2], 16),
+      b: parseInt(result[3], 16)
+    } : null;
+  }
 }
