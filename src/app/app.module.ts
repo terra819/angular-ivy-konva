@@ -3,12 +3,11 @@ import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 
-// Import KonvaModule
-import { KonvaModule } from "ng2-konva";
+import { NgxColorsModule } from 'ngx-colors';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, KonvaModule],
+  imports: [BrowserModule,NgxColorsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

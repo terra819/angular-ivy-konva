@@ -14,6 +14,7 @@
     "@types/underscore": "^1.11.4",
     "konva": "^8.3.3",
     "ng2-konva": "^6.0.0",
+    "ngx-colors": "^3.0.2",
     "rxjs": "^7.5.2",
     "tslib": "^2.3.1",
     "underscore": "^1.13.2",

@@ -16,7 +16,7 @@ export class AppComponent {
     width: 828,
     height: 797,
   });
-  public penColor = [0,0,255];
+  public penColor = [0, 0, 255];
   public strips = [];
   public circles = data;
   public code = 'code';
@@ -48,12 +48,18 @@ export class AppComponent {
     this.ctx.fill(circlePath);
     var thisComponent = this;
     this.ctx.canvas.addEventListener('click', function (event) {
-      if (thisComponent.ctx.isPointInPath(circlePath, event.clientX, event.clientY)) {
+      if (
+        thisComponent.ctx.isPointInPath(
+          circlePath,
+          event.clientX,
+          event.clientY
+        )
+      ) {
         thisComponent.paintCircle(circle);
       }
     });
   }
-  public paintCircle(circle){
+  public paintCircle(circle) {
     circle.rValue = this.penColor[0];
     circle.gValue = this.penColor[1];
     circle.bValue = this.penColor[2];
