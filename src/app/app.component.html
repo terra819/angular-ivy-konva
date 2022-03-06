@@ -1,10 +1,3 @@
-<form action="">
-   <div class="form-group">
-      <label>Pick or enter color</label>
-         <ngx-colors ngx-colors-trigger [(ngModel)]="color"></ngx-colors>
-            <ngx-colors ngx-colors-trigger style="display: inline-block; margin:5px;">
-               </ngx-colors>
-                 </div>
-                 </form>
-                 <canvas #canvas width="828" height="797"></canvas>
-<code>{{code}}</code>
+<ngx-colors ngx-colors-trigger [(ngModel)]="color"></ngx-colors>
+<canvas #canvas width="828" height="797"></canvas>
+<code>{{ code }}</code>

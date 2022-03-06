@@ -7,7 +7,7 @@ import { NgxColorsModule } from 'ngx-colors';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule,NgxColorsModule],
+  imports: [BrowserModule, NgxColorsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
