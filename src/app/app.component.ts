@@ -745,11 +745,22 @@ export class AppComponent {
     this.generateCode();
   }
   protected drawCircleOnCanvas(circle) {
-    this.ctx.beginPath();
-    this.ctx.arc(circle.positionX, circle.positionY, circle.radius, 0, 2 * Math.PI);
-    this.ctx.fillStyle = this.rgbToHex(circle.rValue, circle.gValue, circle.bValue);
-    this.ctx.stroke();
-    this.ctx.fill();
+    // this.ctx.beginPath();
+    // this.ctx.arc(circle.positionX, circle.positionY, circle.radius, 0, 2 * Math.PI);
+    // this.ctx.fillStyle = this.rgbToHex(circle.rValue, circle.gValue, circle.bValue);
+    // this.ctx.stroke();
+    // this.ctx.fill();
+
+    const circle1 = new Path2D();
+  circle1.arc(circle.positionX, circle.positionY, circle.radius, 0, 2 * Math.PI);
+ this.ctx.fillStyle = this.rgbToHex(circle.rValue, circle.gValue, circle.bValue);
+  this.ctx.fill(circle1);
+var ctx = this.ctx;
+  this.ctx.canvas.addEventListener("click", function(event) {
+    if (ctx.isPointInPath(circle1, event.clientX, event.clientY)) {
+      alert("you are inside the circle" + circle.positionX + circle.positionY + circle.radius);
+    }
+  });
   }
   public generateCode() {
     this.code = 'generated';
