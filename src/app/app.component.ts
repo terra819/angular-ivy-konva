@@ -65,12 +65,12 @@ export class AppComponent {
     circle.gValue = rgbValue.g;
     circle.bValue = rgbValue.b;
     this.drawCircleOnCanvas(circle);
+    this.generateCode();
   }
   public generateCode() {
     this.code = 'generated';
-    // get by strip
-    // then by color
-    // then pixel
+    // group by color
+    // then by strip
     var allPixels = [];
     this.circles.forEach((circle) => {
       circle.pixels.forEach((pixel) => {
@@ -82,15 +82,15 @@ export class AppComponent {
       });
     });
 
-    var groupByStrip = allPixels.reduce((group, product) => {
-      const { strip } = product;
-      group[strip] = group[strip] ?? [];
-      group[strip].push({ index: product.index, rgb: product.rgb });
+    var groupByColor = allPixels.reduce((group, product) => {
+      const { rgb } = product;
+      group[rgb] = group[rgb] ?? [];
+      group[rgb].push({ strip: product.strip, pixel: product.index });
       return group;
     }, {});
     //{"A":[{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":4,"rgb":[255,255,0]},{"index":5,"rgb":[255,0,0]},{"index":6,"rgb":[255,0,0]},{"index":7,"rgb":[255,0,0]},{"index":8,"rgb":[255,0,0]},{"index":9,"rgb":[255,0,0]}]}
 
-    this.code = JSON.stringify(groupByStrip);
+    this.code = JSON.stringify(groupByColor);
     //   int stripARed[2] = {0,3};
     // setStripAColor(stripARed, 255,0,0);
   }
