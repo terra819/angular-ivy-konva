@@ -737,6 +737,7 @@ export class AppComponent {
   ngOnInit() {
     this.ctx = this.canvas.nativeElement.getContext('2d');
     this.drawCircles();
+    this.ctx.canvas.addEventListener('click', function() { }, false);
   }
   public drawCircles() {
     this.circles.forEach((circle) => {
@@ -749,6 +750,9 @@ export class AppComponent {
     this.ctx.arc(circle.positionX, circle.positionY, circle.radius, 0, 2 * Math.PI);
     this.ctx.fillStyle = this.rgbToHex(circle.rValue, circle.gValue, circle.bValue);
     this.ctx.stroke();
+  //   clicked: function() {
+  //     alert('This circle has been clicked');
+  // }
     this.ctx.fill();
   }
   public generateCode() {
@@ -766,8 +770,6 @@ export class AppComponent {
         });
       });
     });
-    // var stripA = allPixels.filter(x => x.strip = "A");
-    // const products = [{"strip":"A","index":0,"rgb":[255,0,0]},{"strip":"A","index":1,"rgb":[255,0,0]},{"strip":"A","index":2,"rgb":[255,0,0]},{"strip":"A","index":3,"rgb":[255,0,0]},{"strip":"A","index":0,"rgb":[255,0,0]},{"strip":"A","index":1,"rgb":[255,0,0]},{"strip":"A","index":2,"rgb":[255,0,0]},{"strip":"A","index":3,"rgb":[255,0,0]},{"strip":"A","index":0,"rgb":[255,0,0]},{"strip":"A","index":1,"rgb":[255,0,0]},{"strip":"A","index":4,"rgb":[255,255,0]},{"strip":"A","index":5,"rgb":[255,0,0]},{"strip":"A","index":6,"rgb":[255,0,0]},{"strip":"A","index":7,"rgb":[255,0,0]},{"strip":"A","index":8,"rgb":[255,0,0]},{"strip":"A","index":9,"rgb":[255,0,0]}];
     
     var groupByStrip = allPixels.reduce((group, product) => {
       const { strip } = product;
