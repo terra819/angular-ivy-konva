@@ -1,7 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { of, Observable, BehaviorSubject } from 'rxjs';
-import * as _ from 'underscore';
-
+import { of, Observable } from 'rxjs';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -17,6 +15,7 @@ export class AppComponent {
     width: 828,
     height: 797,
   });
+  public penColor = [0,0,255];
   public strips = [];
   public circles = [
     {
@@ -796,6 +795,7 @@ export class AppComponent {
     this.drawCircles();
   }
   public drawCircles() {
+    this.ctx.clearRect(0, 0, this.canvas.nativeElement.width, this.canvas.nativeElement.height);
     this.circles.forEach((circle) => {
       this.drawCircleOnCanvas(circle);
     });
@@ -817,17 +817,18 @@ export class AppComponent {
     );
     this.ctx.stroke(circlePath);
     this.ctx.fill(circlePath);
-    var ctx = this.ctx;
+    var thisComponent = this;
     this.ctx.canvas.addEventListener('click', function (event) {
-      if (ctx.isPointInPath(circlePath, event.clientX, event.clientY)) {
-        alert(
-          'you are inside the circle' +
-            circle.positionX +
-            circle.positionY +
-            circle.radius
-        );
+      if (thisComponent.ctx.isPointInPath(circlePath, event.clientX, event.clientY)) {
+        thisComponent.paintCircle(circle);
       }
     });
+  }
+  public paintCircle(circle){
+    circle.rValue = this.penColor[0];
+    circle.gValue = this.penColor[1];
+    circle.bValue = this.penColor[2];
+    this.drawCircles();
   }
   public generateCode() {
     this.code = 'generated';
