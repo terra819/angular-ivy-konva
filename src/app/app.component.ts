@@ -16,7 +16,7 @@ export class AppComponent {
     width: 828,
     height: 797,
   });
-  public penColor = [0, 0, 255];
+  public color = [0, 0, 255];
   public strips = [];
   public circles = data;
   public code = 'code';
@@ -60,9 +60,9 @@ export class AppComponent {
     });
   }
   public paintCircle(circle) {
-    circle.rValue = this.penColor[0];
-    circle.gValue = this.penColor[1];
-    circle.bValue = this.penColor[2];
+    circle.rValue = this.color[0];
+    circle.gValue = this.color[1];
+    circle.bValue = this.color[2];
     this.drawCircleOnCanvas(circle);
   }
   public generateCode() {
