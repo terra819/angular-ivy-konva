@@ -6,12 +6,12 @@ import * as _ from 'underscore';
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  styles: ['canvas { border-style: solid }'],
+  styles: ['canvas { border-style: solid }']
 })
 export class AppComponent {
   @ViewChild('canvas', { static: true })
-  canvas: ElementRef<HTMLCanvasElement>;
-
+  canvas: ElementRef<HTMLCanvasElement>;  
+  
   private ctx: CanvasRenderingContext2D;
   public configStage: Observable<any> = of({
     width: 828,
@@ -502,10 +502,7 @@ export class AppComponent {
       positionX: 417,
       positionY: 108,
       radius: 28,
-      pixels: [
-        { strip: 'A', index: 55 },
-        { strip: 'A', index: 56 },
-      ],
+      pixels: [{ strip: 'A', index: 55 },{ strip: 'A', index: 56 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -523,10 +520,7 @@ export class AppComponent {
       positionX: 315,
       positionY: 123,
       radius: 28,
-      pixels: [
-        { strip: 'A', index: 58 },
-        { strip: 'A', index: 59 },
-      ],
+      pixels: [{ strip: 'A', index: 58 },{ strip: 'A', index: 59 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -544,10 +538,7 @@ export class AppComponent {
       positionX: 227,
       positionY: 175,
       radius: 28,
-      pixels: [
-        { strip: 'A', index: 61 },
-        { strip: 'A', index: 62 },
-      ],
+      pixels: [{ strip: 'A', index: 61 },{ strip: 'A', index: 62 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -592,10 +583,7 @@ export class AppComponent {
       positionX: 152,
       positionY: 402,
       radius: 26,
-      pixels: [
-        { strip: 'A', index: 67 },
-        { strip: 'A', index: 68 },
-      ],
+      pixels: [{ strip: 'A', index: 67 },{ strip: 'A', index: 68 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -604,10 +592,7 @@ export class AppComponent {
       positionX: 128,
       positionY: 451,
       radius: 28,
-      pixels: [
-        { strip: 'A', index: 69 },
-        { strip: 'A', index: 70 },
-      ],
+      pixels: [{ strip: 'A', index: 69 },{ strip: 'A', index: 70 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -616,10 +601,7 @@ export class AppComponent {
       positionX: 111,
       positionY: 510,
       radius: 32,
-      pixels: [
-        { strip: 'A', index: 71 },
-        { strip: 'A', index: 74 },
-      ],
+      pixels: [{ strip: 'A', index: 71 },{ strip: 'A', index: 74 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -628,10 +610,7 @@ export class AppComponent {
       positionX: 105,
       positionY: 579,
       radius: 34,
-      pixels: [
-        { strip: 'A', index: 72 },
-        { strip: 'A', index: 73 },
-      ],
+      pixels: [{ strip: 'A', index: 72 },{ strip: 'A', index: 73 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -640,10 +619,7 @@ export class AppComponent {
       positionX: 62,
       positionY: 462,
       radius: 34,
-      pixels: [
-        { strip: 'A', index: 75 },
-        { strip: 'A', index: 76 },
-      ],
+      pixels: [{ strip: 'A', index: 75 },{ strip: 'A', index: 76 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -652,10 +628,7 @@ export class AppComponent {
       positionX: 91,
       positionY: 400,
       radius: 32,
-      pixels: [
-        { strip: 'A', index: 77 },
-        { strip: 'A', index: 78 },
-      ],
+      pixels: [{ strip: 'A', index: 77 },{ strip: 'A', index: 78 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -664,10 +637,7 @@ export class AppComponent {
       positionX: 63,
       positionY: 338,
       radius: 34,
-      pixels: [
-        { strip: 'A', index: 79 },
-        { strip: 'A', index: 80 },
-      ],
+      pixels: [{ strip: 'A', index: 79 },{ strip: 'A', index: 80 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -676,10 +646,7 @@ export class AppComponent {
       positionX: 112,
       positionY: 287,
       radius: 32,
-      pixels: [
-        { strip: 'A', index: 81 },
-        { strip: 'A', index: 82 },
-      ],
+      pixels: [{ strip: 'A', index: 81 },{ strip: 'A', index: 82 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -688,10 +655,7 @@ export class AppComponent {
       positionX: 128,
       positionY: 350,
       radius: 28,
-      pixels: [
-        { strip: 'A', index: 83 },
-        { strip: 'A', index: 84 },
-      ],
+      pixels: [{ strip: 'A', index: 83 },{ strip: 'A', index: 84 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -709,10 +673,7 @@ export class AppComponent {
       positionX: 164,
       positionY: 253,
       radius: 28,
-      pixels: [
-        { strip: 'A', index: 86 },
-        { strip: 'A', index: 87 },
-      ],
+      pixels: [{ strip: 'A', index: 86 },{ strip: 'A', index: 87 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -721,10 +682,7 @@ export class AppComponent {
       positionX: 168,
       positionY: 191,
       radius: 32,
-      pixels: [
-        { strip: 'A', index: 88 },
-        { strip: 'A', index: 91 },
-      ],
+      pixels: [{ strip: 'A', index: 88 },{ strip: 'A', index: 91 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -733,10 +691,7 @@ export class AppComponent {
       positionX: 105,
       positionY: 220,
       radius: 34,
-      pixels: [
-        { strip: 'A', index: 89 },
-        { strip: 'A', index: 90 },
-      ],
+      pixels: [{ strip: 'A', index: 89 },{ strip: 'A', index: 90 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -745,10 +700,7 @@ export class AppComponent {
       positionX: 187,
       positionY: 124,
       radius: 34,
-      pixels: [
-        { strip: 'A', index: 92 },
-        { strip: 'A', index: 93 },
-      ],
+      pixels: [{ strip: 'A', index: 92 },{ strip: 'A', index: 93 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -757,10 +709,7 @@ export class AppComponent {
       positionX: 254,
       positionY: 118,
       radius: 32,
-      pixels: [
-        { strip: 'A', index: 94 },
-        { strip: 'A', index: 95 },
-      ],
+      pixels: [{ strip: 'A', index: 94 },{ strip: 'A', index: 95 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -769,10 +718,7 @@ export class AppComponent {
       positionX: 294,
       positionY: 62,
       radius: 34,
-      pixels: [
-        { strip: 'A', index: 96 },
-        { strip: 'A', index: 97 },
-      ],
+      pixels: [{ strip: 'A', index: 96 },{ strip: 'A', index: 97 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
@@ -781,53 +727,16 @@ export class AppComponent {
       positionX: 361,
       positionY: 79,
       radius: 32,
-      pixels: [
-        { strip: 'A', index: 98 },
-        { strip: 'A', index: 99 },
-      ],
+      pixels: [{ strip: 'A', index: 98 },{ strip: 'A', index: 99 }],
       rValue: 255,
       gValue: 0,
       bValue: 255,
-    },
+    }
   ];
   code = 'code';
   ngOnInit() {
     this.ctx = this.canvas.nativeElement.getContext('2d');
     this.drawCircles();
-    var elemLeft = this.ctx.canvas.offsetLeft;
-    var elemTop = this.ctx.canvas.offsetTop;
-    var elements = [];
-    // event listener for click event
-    this.ctx.canvas.addEventListener(
-      'click',
-      function (event) {
-        var xVal = event.pageX - elemLeft,
-          yVal = event.pageY - elemTop;
-        console.log(xVal, yVal);
-        elements.forEach(function (ele) {
-          if (
-            yVal > ele.top &&
-            yVal < ele.top + ele.height &&
-            xVal > ele.left &&
-            xVal < ele.left + ele.width
-          ) {
-            alert('element clicked');
-          }
-        });
-      },
-      false
-    );
-    elements.push({
-      colour: '#1C2128',
-      width: 250,
-      height: 200,
-      top: 30,
-      left: 20,
-    });
-    elements.forEach(function (ele) {
-      this.ctx.fillStyle = ele.colour;
-      this.ctx.fillRect(ele.left, ele.top, ele.width, ele.height);
-    });
   }
   public drawCircles() {
     this.circles.forEach((circle) => {
@@ -837,22 +746,9 @@ export class AppComponent {
   }
   protected drawCircleOnCanvas(circle) {
     this.ctx.beginPath();
-    this.ctx.arc(
-      circle.positionX,
-      circle.positionY,
-      circle.radius,
-      0,
-      2 * Math.PI
-    );
-    this.ctx.fillStyle = this.rgbToHex(
-      circle.rValue,
-      circle.gValue,
-      circle.bValue
-    );
+    this.ctx.arc(circle.positionX, circle.positionY, circle.radius, 0, 2 * Math.PI);
+    this.ctx.fillStyle = this.rgbToHex(circle.rValue, circle.gValue, circle.bValue);
     this.ctx.stroke();
-    //   clicked: function() {
-    //     alert('This circle has been clicked');
-    // }
     this.ctx.fill();
   }
   public generateCode() {
@@ -866,23 +762,27 @@ export class AppComponent {
         allPixels.push({
           strip: pixel.strip,
           index: pixel.index,
-          rgb: [circle.rValue, circle.gValue, circle.bValue],
+          rgb: [circle.rValue,circle.gValue,circle.bValue]
         });
       });
     });
-
+    
     var groupByStrip = allPixels.reduce((group, product) => {
       const { strip } = product;
       group[strip] = group[strip] ?? [];
-      group[strip].push({ index: product.index, rgb: product.rgb });
+      group[strip].push({"index": product.index, "rgb": product.rgb});
       return group;
     }, {});
-    //{"A":[{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":4,"rgb":[255,255,0]},{"index":5,"rgb":[255,0,0]},{"index":6,"rgb":[255,0,0]},{"index":7,"rgb":[255,0,0]},{"index":8,"rgb":[255,0,0]},{"index":9,"rgb":[255,0,0]}]}
+//{"A":[{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":4,"rgb":[255,255,0]},{"index":5,"rgb":[255,0,0]},{"index":6,"rgb":[255,0,0]},{"index":7,"rgb":[255,0,0]},{"index":8,"rgb":[255,0,0]},{"index":9,"rgb":[255,0,0]}]}
 
+    
     this.code = JSON.stringify(groupByStrip);
-    //   int stripARed[2] = {0,3};
-    // setStripAColor(stripARed, 255,0,0);
+  //   int stripARed[2] = {0,3};
+  // setStripAColor(stripARed, 255,0,0);
   }
+
+  
+
 
   public rgbToHex = (r, g, b) =>
     '#' +
