@@ -104,21 +104,23 @@ export class AppComponent {
     );
     groupedPixels.forEach((rgb) => {
       var color = Object.keys(rgb);
-      var r = color[0];// 255,0,0
+      var r = color[0]; // 255,0,0
       var strips = rgb[color[0]];
       strips.forEach((strip) => {
         var stripName = Object.keys(strip);
         var s = stripName[0]; // A
         var stripPixels = strip[stripName[0]];
         var p = stripPixels.join(','); //92,93,96,97
-        var stripVarName = "strip" + s + r.split(',').join('');
+        var stripVarName = 'strip' + s + r.split(',').join('');
         //   int stripARed[2] = {0,3};
-        codes.push("int " + stripVarName + "[" + stripPixels.length + "] = {" + p + "};");
+        codes.push(
+          'int ' + stripVarName + '[' + stripPixels.length + '] = {' + p + '};'
+        );
         // setStripAColor(stripARed, 255,0,0);
-        codes.push("setStrip"+s+"Color("+stripVarName+", "+r+");");
+        codes.push('setStrip' + s + 'Color(' + stripVarName + ', ' + r + ');');
       });
     });
-    this.code = codes.join("\n");
+    this.code = codes.join('\n');
   }
 
   public rgbToHex = (r, g, b) =>
