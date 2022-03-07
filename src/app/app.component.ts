@@ -114,10 +114,8 @@ export class AppComponent {
         var stripVarName = "strip" + s + r.split(',').join('');
         //   int stripARed[2] = {0,3};
         codes.push("int " + stripVarName + "[" + stripPixels.length + "] = {" + p + "};");
-        console.log("int " + stripVarName + "[" + stripPixels.length + "] = {" + p + "};");
         // setStripAColor(stripARed, 255,0,0);
-        codes.push("setStripAColor("+stripVarName+", "+r+");");
-        console.log("setStripAColor("+stripVarName+", "+r+");");
+        codes.push("setStrip"+s+"Color("+stripVarName+", "+r+");");
       });
     });
     this.code = codes.join("\n");
