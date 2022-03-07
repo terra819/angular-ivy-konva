@@ -69,6 +69,7 @@ export class AppComponent {
   }
   public generateCode() {
     this.code = 'generated';
+    var codes = [];
     // group by color
     // then by strip
     var allPixels = [];
@@ -112,12 +113,14 @@ export class AppComponent {
         var p = stripPixels.join(','); //92,93,96,97
         var stripVarName = "strip" + s + r.split(',').join('');
         //   int stripARed[2] = {0,3};
+        codes.push("int " + stripVarName + "[" + stripPixels.length + "] = {" + p + "};");
         console.log("int " + stripVarName + "[" + stripPixels.length + "] = {" + p + "};");
         // setStripAColor(stripARed, 255,0,0);
+        codes.push("setStripAColor("+stripVarName+", "+r+");");
         console.log("setStripAColor("+stripVarName+", "+r+");");
       });
     });
-    this.code = JSON.stringify(groupedPixels);
+    this.code = codes.join("\n");
   }
 
   public rgbToHex = (r, g, b) =>
