@@ -77,22 +77,47 @@ export class AppComponent {
         allPixels.push({
           strip: pixel.strip,
           index: pixel.index,
-          rgb: [circle.rValue, circle.gValue, circle.bValue],
+          rgb: circle.rValue + ',' + circle.gValue + ',' + circle.bValue,
         });
       });
     });
 
-    var groupByColor = allPixels.reduce((group, product) => {
-      const { rgb } = product;
-      group[rgb] = group[rgb] ?? [];
-      group[rgb].push({ strip: product.strip, pixel: product.index });
-      return group;
-    }, {});
-    //{"A":[{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":2,"rgb":[255,0,0]},{"index":3,"rgb":[255,0,0]},{"index":0,"rgb":[255,0,0]},{"index":1,"rgb":[255,0,0]},{"index":4,"rgb":[255,255,0]},{"index":5,"rgb":[255,0,0]},{"index":6,"rgb":[255,0,0]},{"index":7,"rgb":[255,0,0]},{"index":8,"rgb":[255,0,0]},{"index":9,"rgb":[255,0,0]}]}
+    var keys = ['rgb', 'strip'],
+      groupedPixels = [];
 
-    this.code = JSON.stringify(groupByColor);
-    //   int stripARed[2] = {0,3};
-    // setStripAColor(stripARed, 255,0,0);
+    allPixels.forEach(
+      function (a) {
+        keys
+          .reduce(function (r, k) {
+            var o = {};
+            if (!r[a[k]]) {
+              r[a[k]] = { _: [] };
+              o[a[k]] = r[a[k]]._;
+              r._.push(o);
+            }
+            return r[a[k]];
+          }, this)
+          ._.push(a.index);
+      },
+      { _: groupedPixels }
+    );
+    groupedPixels.forEach((rgb) => {
+      var color = Object.keys(rgb);
+      var r = color[0];// 255,0,0
+      var strips = rgb[color[0]];
+      strips.forEach((strip) => {
+        var stripName = Object.keys(strip);
+        var s = stripName[0]; // A
+        var stripPixels = strip[stripName[0]];
+        var p = stripPixels.join(','); //92,93,96,97
+        var stripVarName = "strip" + s + r.split(',').join('');
+        //   int stripARed[2] = {0,3};
+        console.log("int " + stripVarName + "[" + stripPixels.length + "] = {" + p + "};");
+        // setStripAColor(stripARed, 255,0,0);
+        console.log("setStripAColor("+stripVarName+", "+r+");");
+      });
+    });
+    this.code = JSON.stringify(groupedPixels);
   }
 
   public rgbToHex = (r, g, b) =>
@@ -106,10 +131,19 @@ export class AppComponent {
 
   public hexToRgb(hex) {
     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-    return result ? {
-      r: parseInt(result[1], 16),
-      g: parseInt(result[2], 16),
-      b: parseInt(result[3], 16)
-    } : null;
+    return result
+      ? {
+          r: parseInt(result[1], 16),
+          g: parseInt(result[2], 16),
+          b: parseInt(result[3], 16),
+        }
+      : null;
+  }
+
+  public unique(array, propertyName) {
+    return array.filter(
+      (e, i) =>
+        array.findIndex((a) => a[propertyName] === e[propertyName]) === i
+    );
   }
 }
