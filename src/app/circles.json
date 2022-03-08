@@ -871,7 +871,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 220,
@@ -885,7 +885,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 183,
@@ -899,7 +899,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 152,
@@ -917,7 +917,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 128,
@@ -935,7 +935,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 111,
@@ -953,7 +953,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 105,
@@ -971,7 +971,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 62,
@@ -989,7 +989,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 91,
@@ -1007,7 +1007,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 63,
@@ -1061,7 +1061,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 170,
@@ -1075,7 +1075,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 164,
@@ -1215,7 +1215,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 384,
@@ -1229,7 +1229,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 385,
@@ -1271,7 +1271,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 336,
@@ -1285,7 +1285,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 344,
@@ -1885,7 +1885,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 367,
@@ -1899,7 +1899,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 362,
@@ -1913,7 +1913,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 364,
@@ -1927,7 +1927,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 373,
@@ -1941,7 +1941,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 390,
@@ -1955,7 +1955,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 417,
@@ -1969,7 +1969,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 453,
@@ -1983,7 +1983,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 499,
@@ -1997,7 +1997,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 517,
@@ -2029,7 +2029,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 605,
@@ -2047,7 +2047,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 665,
@@ -2065,7 +2065,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 726,
@@ -2083,7 +2083,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 246
+    "bValue": 0
   },
   {
     "positionX": 647,
@@ -2245,7 +2245,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 169,
@@ -2263,7 +2263,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 163,
@@ -2277,7 +2277,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 168,
@@ -2291,7 +2291,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 184,
@@ -2305,7 +2305,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 208,
@@ -2319,7 +2319,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 238,
@@ -2333,7 +2333,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 271,
@@ -2347,7 +2347,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 304,
@@ -2361,7 +2361,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 312,
@@ -2691,7 +2691,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 741,
@@ -2709,7 +2709,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 769,
@@ -2727,7 +2727,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 723,
@@ -2745,7 +2745,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 670,
@@ -2763,7 +2763,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 620,
@@ -2777,7 +2777,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 570,
@@ -2791,7 +2791,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 522,
@@ -2805,7 +2805,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 479,
@@ -2819,7 +2819,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 444,
@@ -2833,7 +2833,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 417,
@@ -2847,7 +2847,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 399,
@@ -2861,7 +2861,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 388,
@@ -2875,7 +2875,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 384,
@@ -2889,7 +2889,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 385,
@@ -2903,7 +2903,7 @@
     ],
    "rValue": 0,
   "gValue": 0,
-    "bValue": 188
+    "bValue": 0
   },
   {
     "positionX": 400,
@@ -2917,7 +2917,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 417,
@@ -3185,7 +3185,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 666,
@@ -3199,7 +3199,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 622,
@@ -3213,7 +3213,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 577,
@@ -3227,7 +3227,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 534,
@@ -3241,7 +3241,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 495,
@@ -3255,7 +3255,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 462,
@@ -3269,7 +3269,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 435,
@@ -3283,7 +3283,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 417,
@@ -3297,7 +3297,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 405,
@@ -3311,7 +3311,7 @@
     ],
    "rValue": 0,
    "gValue": 0,
-    "bValue": 122
+    "bValue": 0
   },
   {
     "positionX": 428,
