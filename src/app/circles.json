@@ -15,7 +15,7 @@
       { "strip": "C", "index": 2 },
       { "strip": "C", "index": 3 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -24,7 +24,7 @@
     "positionY": 351,
     "radius": 7,
     "pixels": [{ "strip": "A", "index": 4 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -33,7 +33,7 @@
     "positionY": 353,
     "radius": 7,
     "pixels": [{ "strip": "A", "index": 5 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -42,7 +42,7 @@
     "positionY": 363,
     "radius": 7,
     "pixels": [{ "strip": "A", "index": 6 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -51,7 +51,7 @@
     "positionY": 376,
     "radius": 7,
     "pixels": [{ "strip": "A", "index": 7 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -60,7 +60,7 @@
     "positionY": 392,
     "radius": 7,
     "pixels": [{ "strip": "A", "index": 8 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -69,7 +69,7 @@
     "positionY": 409,
     "radius": 7,
     "pixels": [{ "strip": "A", "index": 9 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -78,7 +78,7 @@
     "positionY": 400,
     "radius": 9,
     "pixels": [{ "strip": "A", "index": 10 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -87,7 +87,7 @@
     "positionY": 386,
     "radius": 11,
     "pixels": [{ "strip": "A", "index": 11 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -96,7 +96,7 @@
     "positionY": 378,
     "radius": 9,
     "pixels": [{ "strip": "A", "index": 12 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -105,7 +105,7 @@
     "positionY": 358,
     "radius": 11,
     "pixels": [{ "strip": "A", "index": 13 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -114,7 +114,7 @@
     "positionY": 358,
     "radius": 9,
     "pixels": [{ "strip": "A", "index": 14 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -123,7 +123,7 @@
     "positionY": 335,
     "radius": 11,
     "pixels": [{ "strip": "A", "index": 15 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -132,7 +132,7 @@
     "positionY": 344,
     "radius": 9,
     "pixels": [{ "strip": "A", "index": 16 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -141,7 +141,7 @@
     "positionY": 320,
     "radius": 11,
     "pixels": [{ "strip": "A", "index": 17 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -150,7 +150,7 @@
     "positionY": 336,
     "radius": 9,
     "pixels": [{ "strip": "A", "index": 18 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -159,7 +159,7 @@
     "positionY": 315,
     "radius": 11,
     "pixels": [{ "strip": "A", "index": 19 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -168,7 +168,7 @@
     "positionY": 336,
     "radius": 9,
     "pixels": [{ "strip": "A", "index": 20 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -177,7 +177,7 @@
     "positionY": 321,
     "radius": 11,
     "pixels": [{ "strip": "A", "index": 21 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -186,7 +186,7 @@
     "positionY": 308,
     "radius": 13,
     "pixels": [{ "strip": "A", "index": 22 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -195,7 +195,7 @@
     "positionY": 301,
     "radius": 15,
     "pixels": [{ "strip": "A", "index": 23 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -204,7 +204,7 @@
     "positionY": 278,
     "radius": 15,
     "pixels": [{ "strip": "A", "index": 24 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -213,7 +213,7 @@
     "positionY": 296,
     "radius": 13,
     "pixels": [{ "strip": "A", "index": 25 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -222,7 +222,7 @@
     "positionY": 270,
     "radius": 15,
     "pixels": [{ "strip": "A", "index": 26 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -231,7 +231,7 @@
     "positionY": 296,
     "radius": 13,
     "pixels": [{ "strip": "A", "index": 27 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -240,7 +240,7 @@
     "positionY": 278,
     "radius": 15,
     "pixels": [{ "strip": "A", "index": 28 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -249,7 +249,7 @@
     "positionY": 309,
     "radius": 13,
     "pixels": [{ "strip": "A", "index": 29 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -258,7 +258,7 @@
     "positionY": 301,
     "radius": 15,
     "pixels": [{ "strip": "A", "index": 30 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -267,7 +267,7 @@
     "positionY": 332,
     "radius": 13,
     "pixels": [{ "strip": "A", "index": 31 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -276,7 +276,7 @@
     "positionY": 365,
     "radius": 13,
     "pixels": [{ "strip": "A", "index": 32 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -285,7 +285,7 @@
     "positionY": 336,
     "radius": 15,
     "pixels": [{ "strip": "A", "index": 33 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -294,7 +294,7 @@
     "positionY": 301,
     "radius": 17,
     "pixels": [{ "strip": "A", "index": 34 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -303,7 +303,7 @@
     "positionY": 260,
     "radius": 19,
     "pixels": [{ "strip": "A", "index": 35 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -312,7 +312,7 @@
     "positionY": 266,
     "radius": 17,
     "pixels": [{ "strip": "A", "index": 36 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -321,7 +321,7 @@
     "positionY": 229,
     "radius": 19,
     "pixels": [{ "strip": "A", "index": 37 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -330,7 +330,7 @@
     "positionY": 248,
     "radius": 17,
     "pixels": [{ "strip": "A", "index": 38 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -339,7 +339,7 @@
     "positionY": 218,
     "radius": 19,
     "pixels": [{ "strip": "A", "index": 39 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -348,7 +348,7 @@
     "positionY": 248,
     "radius": 17,
     "pixels": [{ "strip": "A", "index": 40 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -357,7 +357,7 @@
     "positionY": 228,
     "radius": 19,
     "pixels": [{ "strip": "A", "index": 41 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -366,7 +366,7 @@
     "positionY": 266,
     "radius": 17,
     "pixels": [{ "strip": "A", "index": 42 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -375,7 +375,7 @@
     "positionY": 261,
     "radius": 19,
     "pixels": [{ "strip": "A", "index": 43 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -384,7 +384,7 @@
     "positionY": 300,
     "radius": 17,
     "pixels": [{ "strip": "A", "index": 44 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -393,7 +393,7 @@
     "positionY": 310,
     "radius": 20,
     "pixels": [{ "strip": "A", "index": 45 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -402,7 +402,7 @@
     "positionY": 265,
     "radius": 21,
     "pixels": [{ "strip": "A", "index": 46 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -411,7 +411,7 @@
     "positionY": 218,
     "radius": 22,
     "pixels": [{ "strip": "A", "index": 47 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -420,7 +420,7 @@
     "positionY": 177,
     "radius": 22,
     "pixels": [{ "strip": "A", "index": 49 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -429,7 +429,7 @@
     "positionY": 195,
     "radius": 21,
     "pixels": [{ "strip": "A", "index": 50 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -438,7 +438,7 @@
     "positionY": 162,
     "radius": 22,
     "pixels": [{ "strip": "A", "index": 51 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -447,7 +447,7 @@
     "positionY": 194,
     "radius": 21,
     "pixels": [{ "strip": "A", "index": 52 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -456,7 +456,7 @@
     "positionY": 219,
     "radius": 21,
     "pixels": [{ "strip": "A", "index": 53 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -465,7 +465,7 @@
     "positionY": 178,
     "radius": 22,
     "pixels": [{ "strip": "A", "index": 54 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -474,7 +474,7 @@
     "positionY": 139,
     "radius": 26,
     "pixels": [{ "strip": "A", "index": 55 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -486,7 +486,7 @@
       { "strip": "A", "index": 56 },
       { "strip": "A", "index": 57 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -495,7 +495,7 @@
     "positionY": 140,
     "radius": 26,
     "pixels": [{ "strip": "A", "index": 58 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -507,7 +507,7 @@
       { "strip": "A", "index": 59 },
       { "strip": "A", "index": 60 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -516,7 +516,7 @@
     "positionY": 171,
     "radius": 26,
     "pixels": [{ "strip": "A", "index": 61 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -528,7 +528,7 @@
       { "strip": "A", "index": 62 },
       { "strip": "A", "index": 63 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -537,7 +537,7 @@
     "positionY": 230,
     "radius": 26,
     "pixels": [{ "strip": "A", "index": 64 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -546,7 +546,7 @@
     "positionY": 281,
     "radius": 22,
     "pixels": [{ "strip": "A", "index": 65 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -555,7 +555,7 @@
     "positionY": 329,
     "radius": 21,
     "pixels": [{ "strip": "A", "index": 66 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -564,7 +564,7 @@
     "positionY": 359,
     "radius": 22,
     "pixels": [{ "strip": "A", "index": 67 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -576,7 +576,7 @@
       { "strip": "A", "index": 68 },
       { "strip": "A", "index": 69 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -588,7 +588,7 @@
       { "strip": "A", "index": 70 },
       { "strip": "A", "index": 71 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -600,7 +600,7 @@
       { "strip": "A", "index": 72 },
       { "strip": "A", "index": 73 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -612,7 +612,7 @@
       { "strip": "A", "index": 74 },
       { "strip": "A", "index": 75 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -624,7 +624,7 @@
       { "strip": "A", "index": 76 },
       { "strip": "A", "index": 77 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -636,7 +636,7 @@
       { "strip": "A", "index": 78 },
       { "strip": "A", "index": 79 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -648,7 +648,7 @@
       { "strip": "A", "index": 80 },
       { "strip": "A", "index": 81 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -660,7 +660,7 @@
       { "strip": "A", "index": 82 },
       { "strip": "A", "index": 83 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -672,7 +672,7 @@
       { "strip": "A", "index": 84 },
       { "strip": "A", "index": 85 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -681,7 +681,7 @@
     "positionY": 309,
     "radius": 26,
     "pixels": [{ "strip": "A", "index": 86 }],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -693,7 +693,7 @@
       { "strip": "A", "index": 87 },
       { "strip": "A", "index": 88 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -705,7 +705,7 @@
       { "strip": "A", "index": 89 },
       { "strip": "A", "index": 92 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -717,7 +717,7 @@
       { "strip": "A", "index": 90 },
       { "strip": "A", "index": 91 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -729,7 +729,7 @@
       { "strip": "A", "index": 93 },
       { "strip": "A", "index": 94 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -741,7 +741,7 @@
       { "strip": "A", "index": 95 },
       { "strip": "A", "index": 96 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -753,7 +753,7 @@
       { "strip": "A", "index": 97 },
       { "strip": "A", "index": 98 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -765,7 +765,7 @@
       { "strip": "A", "index": 99 },
       { "strip": "A", "index": 100 }
     ],
-    "rValue": 255,
+    "rValue": 0,
     "gValue": 0,
     "bValue": 0
   },
@@ -775,7 +775,7 @@
     "radius": 7,
     "pixels": [{ "strip": "B", "index": 2 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -784,7 +784,7 @@
     "radius": 9,
     "pixels": [{ "strip": "B", "index": 3 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -793,7 +793,7 @@
     "radius": 7,
     "pixels": [{ "strip": "B", "index": 4 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -802,7 +802,7 @@
     "radius": 9,
     "pixels": [{ "strip": "B", "index": 5 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -811,7 +811,7 @@
     "radius": 11,
     "pixels": [{ "strip": "B", "index": 6 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -820,7 +820,7 @@
     "radius": 13,
     "pixels": [{ "strip": "B", "index": 7 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -829,7 +829,7 @@
     "radius": 11,
     "pixels": [{ "strip": "B", "index": 8 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -838,7 +838,7 @@
     "radius": 13,
     "pixels": [{ "strip": "B", "index": 9 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -847,7 +847,7 @@
     "radius": 15,
     "pixels": [{ "strip": "B", "index": 10 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -856,7 +856,7 @@
     "radius": 13,
     "pixels": [{ "strip": "B", "index": 11 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -865,7 +865,7 @@
     "radius": 15,
     "pixels": [{ "strip": "B", "index": 12 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -874,7 +874,7 @@
     "radius": 17,
     "pixels": [{ "strip": "B", "index": 13 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -883,7 +883,7 @@
     "radius": 19,
     "pixels": [{ "strip": "B", "index": 14 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -892,7 +892,7 @@
     "radius": 17,
     "pixels": [{ "strip": "B", "index": 15 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -901,7 +901,7 @@
     "radius": 19,
     "pixels": [{ "strip": "B", "index": 16 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -910,7 +910,7 @@
     "radius": 21,
     "pixels": [{ "strip": "B", "index": 17 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -919,7 +919,7 @@
     "radius": 23,
     "pixels": [{ "strip": "B", "index": 18 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -928,7 +928,7 @@
     "radius": 21,
     "pixels": [{ "strip": "B", "index": 19 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -937,7 +937,7 @@
     "radius": 23,
     "pixels": [{ "strip": "B", "index": 20 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -946,7 +946,7 @@
     "radius": 25,
     "pixels": [{ "strip": "B", "index": 21 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -956,7 +956,7 @@
     "pixels": [{ "strip": "B", "index": 22 },
       { "strip": "B", "index": 23 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -965,7 +965,7 @@
     "radius": 25,
     "pixels": [{ "strip": "B", "index": 24 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -975,7 +975,7 @@
     "pixels": [{ "strip": "B", "index": 25 },
       { "strip": "B", "index": 26 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -984,7 +984,7 @@
     "radius": 25,
     "pixels": [{ "strip": "B", "index": 27 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -994,7 +994,7 @@
     "pixels": [{ "strip": "B", "index": 28 },
       { "strip": "B", "index": 29 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1003,7 +1003,7 @@
     "radius": 25,
     "pixels": [{ "strip": "B", "index": 30 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1012,7 +1012,7 @@
     "radius": 23,
     "pixels": [{ "strip": "B", "index": 31 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1021,7 +1021,7 @@
     "radius": 21,
     "pixels": [{ "strip": "B", "index": 32 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1030,7 +1030,7 @@
     "radius": 23,
     "pixels": [{ "strip": "B", "index": 33 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1039,7 +1039,7 @@
     "radius": 21,
     "pixels": [{ "strip": "B", "index": 34 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1048,7 +1048,7 @@
     "radius": 19,
     "pixels": [{ "strip": "B", "index": 35 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1057,7 +1057,7 @@
     "radius": 17,
     "pixels": [{ "strip": "B", "index": 36 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1066,7 +1066,7 @@
     "radius": 19,
     "pixels": [{ "strip": "B", "index": 37 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1075,7 +1075,7 @@
     "radius": 17,
     "pixels": [{ "strip": "B", "index": 38 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1084,7 +1084,7 @@
     "radius": 15,
     "pixels": [{ "strip": "B", "index": 39 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1093,7 +1093,7 @@
     "radius": 13,
     "pixels": [{ "strip": "B", "index": 40 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1102,7 +1102,7 @@
     "radius": 15,
     "pixels": [{ "strip": "B", "index": 41 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1111,7 +1111,7 @@
     "radius": 13,
     "pixels": [{ "strip": "B", "index": 42 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   }
   ,
@@ -1121,7 +1121,7 @@
     "radius": 11,
     "pixels": [{ "strip": "B", "index": 43 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1130,7 +1130,7 @@
     "radius": 9,
     "pixels": [{ "strip": "B", "index": 44 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   } ,
   {
@@ -1139,7 +1139,7 @@
     "radius": 11,
     "pixels": [{ "strip": "B", "index": 45 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1148,7 +1148,7 @@
     "radius": 9,
     "pixels": [{ "strip": "B", "index": 46 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   } ,
   {
@@ -1157,7 +1157,7 @@
     "radius": 11,
     "pixels": [{ "strip": "B", "index": 47 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1166,7 +1166,7 @@
     "radius": 9,
     "pixels": [{ "strip": "B", "index": 48 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1175,7 +1175,7 @@
     "radius": 7,
     "pixels": [{ "strip": "B", "index": 49 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1184,7 +1184,7 @@
     "radius": 7,
     "pixels": [{ "strip": "B", "index": 50 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1193,7 +1193,7 @@
     "radius": 7,
     "pixels": [{ "strip": "B", "index": 51 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1202,7 +1202,7 @@
     "radius": 7,
     "pixels": [{ "strip": "B", "index": 52 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1211,7 +1211,7 @@
     "radius": 9,
     "pixels": [{ "strip": "B", "index": 53 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1220,7 +1220,7 @@
     "radius": 11,
     "pixels": [{ "strip": "B", "index": 54 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1229,7 +1229,7 @@
     "radius": 13,
     "pixels": [{ "strip": "B", "index": 55 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1238,7 +1238,7 @@
     "radius": 15,
     "pixels": [{ "strip": "B", "index": 56 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1247,7 +1247,7 @@
     "radius": 17,
     "pixels": [{ "strip": "B", "index": 57 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1256,7 +1256,7 @@
     "radius": 19,
     "pixels": [{ "strip": "B", "index": 58 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1265,7 +1265,7 @@
     "radius": 21,
     "pixels": [{ "strip": "B", "index": 59 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1274,7 +1274,7 @@
     "radius": 23,
     "pixels": [{ "strip": "B", "index": 60 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1284,7 +1284,7 @@
     "pixels": [{ "strip": "B", "index": 61 },
       { "strip": "B", "index": 62 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1293,7 +1293,7 @@
     "radius": 26,
     "pixels": [{ "strip": "B", "index": 63 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1303,7 +1303,7 @@
     "pixels": [{ "strip": "B", "index": 64 },
       { "strip": "B", "index": 65 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1313,7 +1313,7 @@
     "pixels": [{ "strip": "B", "index": 65 },
       { "strip": "B", "index": 68 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1323,7 +1323,7 @@
     "pixels": [{ "strip": "B", "index": 66 },
       { "strip": "B", "index": 67 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1333,7 +1333,7 @@
     "pixels": [{ "strip": "B", "index": 68 },
       { "strip": "B", "index": 69 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1343,7 +1343,7 @@
     "pixels": [{ "strip": "B", "index": 70 },
       { "strip": "B", "index": 71 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1353,7 +1353,7 @@
     "pixels": [{ "strip": "B", "index": 72 },
       { "strip": "B", "index": 73 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1363,7 +1363,7 @@
     "pixels": [{ "strip": "B", "index": 74 },
       { "strip": "B", "index": 75 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1373,7 +1373,7 @@
     "pixels": [{ "strip": "B", "index": 76 },
       { "strip": "B", "index": 77 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1383,7 +1383,7 @@
     "pixels": [{ "strip": "B", "index": 78 },
       { "strip": "B", "index": 79 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1393,7 +1393,7 @@
     "pixels": [{ "strip": "B", "index": 80 },
       { "strip": "B", "index": 81 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1403,7 +1403,7 @@
     "pixels": [{ "strip": "B", "index": 82 },
       { "strip": "B", "index": 83 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1413,7 +1413,7 @@
     "pixels": [{ "strip": "B", "index": 84 },
       { "strip": "B", "index": 85 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1423,7 +1423,7 @@
     "pixels": [{ "strip": "B", "index": 86 },
       { "strip": "B", "index": 87 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1432,7 +1432,7 @@
     "radius": 28,
     "pixels": [{ "strip": "B", "index": 88 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1441,7 +1441,7 @@
     "radius": 26,
     "pixels": [{ "strip": "B", "index": 89 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1450,7 +1450,7 @@
     "radius": 24,
     "pixels": [{ "strip": "B", "index": 90 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1459,7 +1459,7 @@
     "radius": 22,
     "pixels": [{ "strip": "B", "index": 91 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1468,7 +1468,7 @@
     "radius": 19,
     "pixels": [{ "strip": "B", "index": 92 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1477,7 +1477,7 @@
     "radius": 17,
     "pixels": [{ "strip": "B", "index": 93 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1486,7 +1486,7 @@
     "radius": 15,
     "pixels": [{ "strip": "B", "index": 94 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   },
   {
@@ -1495,7 +1495,7 @@
     "radius": 21,
     "pixels": [{ "strip": "B", "index": 96 }],
     "rValue": 0,
-    "gValue": 255,
+    "gValue": 0,
     "bValue": 0
   }
 ]
