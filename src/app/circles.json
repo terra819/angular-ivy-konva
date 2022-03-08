@@ -10,10 +10,10 @@
       { "strip": "A", "index": 3 },
       { "strip": "B", "index": 0 },
       { "strip": "B", "index": 1 },
-      { "strip": "B", "index": 2 },
-      { "strip": "B", "index": 3 },
       { "strip": "C", "index": 0 },
-      { "strip": "C", "index": 1 }
+      { "strip": "C", "index": 1 },
+      { "strip": "C", "index": 2 },
+      { "strip": "C", "index": 3 }
     ],
     "rValue": 255,
     "gValue": 0,
@@ -767,6 +767,15 @@
     ],
     "rValue": 255,
     "gValue": 0,
+    "bValue": 0
+  },
+  {
+    "positionX": 400,
+    "positionY": 353,
+    "radius": 7,
+    "pixels": [{ "strip": "B", "index": 2 }],
+    "rValue": 0,
+    "gValue": 255,
     "bValue": 0
   }
 ]
