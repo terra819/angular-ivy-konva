@@ -777,5 +777,41 @@
     "rValue": 0,
     "gValue": 255,
     "bValue": 0
+  },
+  {
+    "positionX": 384,
+    "positionY": 343,
+    "radius": 9,
+    "pixels": [{ "strip": "B", "index": 3 }],
+    "rValue": 0,
+    "gValue": 255,
+    "bValue": 0
+  },
+  {
+    "positionX": 385,
+    "positionY": 363,
+    "radius": 7,
+    "pixels": [{ "strip": "B", "index": 4 }],
+    "rValue": 0,
+    "gValue": 255,
+    "bValue": 0
+  },
+  {
+    "positionX": 367,
+    "positionY": 358,
+    "radius": 9,
+    "pixels": [{ "strip": "B", "index": 5 }],
+    "rValue": 0,
+    "gValue": 255,
+    "bValue": 0
+  },
+  {
+    "positionX": 363,
+    "positionY": 335,
+    "radius": 11,
+    "pixels": [{ "strip": "B", "index": 6 }],
+    "rValue": 0,
+    "gValue": 255,
+    "bValue": 0
   }
 ]
