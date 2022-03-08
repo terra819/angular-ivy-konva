@@ -116,8 +116,8 @@ export class AppComponent {
         codes.push(
           'int ' + stripVarName + '[' + stripPixels.length + '] = {' + p + '};'
         );
-        // setStripAColor(stripARed, 255,0,0);
-        codes.push('setStrip' + s + 'Color(' + stripVarName + ', ' + r + ');');
+        // setStripAColor(stripARed,100, 255,0,0);
+        codes.push('setStrip' + s + 'Color(' + stripVarName + ', ' + stripPixels.length + ', ' + r + ');');
       });
     });
     this.code = codes.join('\n');
