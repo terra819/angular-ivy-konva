@@ -18,6 +18,7 @@ export class AppComponent {
   });
   color = '#ffffff';
   public strips = [];
+  public frame = 1;
   public circles = data;
   public code = 'code';
   ngOnInit() {
@@ -111,7 +112,7 @@ export class AppComponent {
         var s = stripName[0]; // A
         var stripPixels = strip[stripName[0]];
         var p = stripPixels.join(','); //92,93,96,97
-        var stripVarName = 'strip' + s + r.split(',').join('');
+        var stripVarName = 'strip' + s + r.split(',').join('') + 'Frame' + this.frame;
         //   int stripARed[2] = {0,3};
         codes.push(
           'int ' + stripVarName + '[' + stripPixels.length + '] = {' + p + '};'
