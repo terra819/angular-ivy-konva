@@ -10,6 +10,8 @@ import data from './circles.json';
 export class AppComponent {
   @ViewChild('canvas', { static: true })
   canvas: ElementRef<HTMLCanvasElement>;
+  @ViewChild('tooltip', { static: true })
+  tooltip: ElementRef<HTMLDivElement>;
 
   private ctx: CanvasRenderingContext2D;
   public configStage: Observable<any> = of({
@@ -21,6 +23,7 @@ export class AppComponent {
   public frame = 1;
   public circles = data;
   public code = 'code';
+  public circle;
   ngOnInit() {
     this.ctx = this.canvas.nativeElement.getContext('2d');
     this.drawCircles();
@@ -59,6 +62,37 @@ export class AppComponent {
         thisComponent.paintCircle(circle);
       }
     });
+    this.ctx.canvas.addEventListener('mouseover', function (event) {
+      if (
+        thisComponent.ctx.isPointInPath(
+          circlePath,
+          event.clientX,
+          event.clientY
+        )
+      ) {
+        thisComponent.showCircleInfo(circle);
+      }
+    });
+    this.ctx.canvas.addEventListener('mouseout', function (event) {
+      if (
+        thisComponent.ctx.isPointInPath(
+          circlePath,
+          event.clientX,
+          event.clientY
+        )
+      ) {
+        thisComponent.hideCircleInfo();
+      }
+    });
+  }
+  public showCircleInfo(circle) {
+    this.circle = circle;
+    this.tooltip.nativeElement.style.position = 'absolute';
+    this.tooltip.nativeElement.style.left = circle.positionX + 'px';
+    this.tooltip.nativeElement.style.top = circle.positionY + 'px';
+  }
+  public hideCircleInfo() {
+    this.circle = '';
   }
   public paintCircle(circle) {
     var rgbValue = this.hexToRgb(this.color);
@@ -112,13 +146,24 @@ export class AppComponent {
         var s = stripName[0]; // A
         var stripPixels = strip[stripName[0]];
         var p = stripPixels.join(','); //92,93,96,97
-        var stripVarName = 'strip' + s + r.split(',').join('') + 'Frame' + this.frame;
+        var stripVarName =
+          'strip' + s + r.split(',').join('') + 'Frame' + this.frame;
         //   int stripARed[2] = {0,3};
         codes.push(
           'int ' + stripVarName + '[' + stripPixels.length + '] = {' + p + '};'
         );
         // setStripAColor(stripARed,100, 255,0,0);
-        codes.push('setStrip' + s + 'Color(' + stripVarName + ', ' + stripPixels.length + ', ' + r + ');');
+        codes.push(
+          'setStrip' +
+            s +
+            'Color(' +
+            stripVarName +
+            ', ' +
+            stripPixels.length +
+            ', ' +
+            r +
+            ');'
+        );
       });
     });
     this.code = codes.join('\n');
