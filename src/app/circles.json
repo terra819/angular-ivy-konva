@@ -820,7 +820,7 @@
     "pixels": [
       {
         "strip": "A",
-        "index": 60
+        "index": 61
       }
     ],
     "rValue": 0,
@@ -834,11 +834,11 @@
     "pixels": [
       {
         "strip": "A",
-        "index": 61
+        "index": 62
       },
       {
         "strip": "A",
-        "index": 62
+        "index": 63
       }
     ],
     "rValue": 0,
@@ -852,7 +852,7 @@
     "pixels": [
       {
         "strip": "A",
-        "index": 63
+        "index": 64
       }
     ],
    "rValue": 0,
@@ -866,7 +866,7 @@
     "pixels": [
       {
         "strip": "A",
-        "index": 64
+        "index": 65
       }
     ],
    "rValue": 0,
@@ -880,7 +880,7 @@
     "pixels": [
       {
         "strip": "A",
-        "index": 65
+        "index": 66
       }
     ],
    "rValue": 0,
@@ -894,7 +894,7 @@
     "pixels": [
       {
         "strip": "A",
-        "index": 66
+        "index": 67
       }
     ],
    "rValue": 0,
