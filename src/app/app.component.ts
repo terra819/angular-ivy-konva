@@ -10,8 +10,6 @@ import data from './circles.json';
 export class AppComponent {
   @ViewChild('canvas', { static: true })
   canvas: ElementRef<HTMLCanvasElement>;
-  @ViewChild('tooltip', { static: true })
-  tooltip: ElementRef<HTMLDivElement>;
 
   private ctx: CanvasRenderingContext2D;
   public configStage: Observable<any> = of({
@@ -23,7 +21,6 @@ export class AppComponent {
   public frame = 1;
   public circles = data;
   public code = 'code';
-  public circle;
   ngOnInit() {
     this.ctx = this.canvas.nativeElement.getContext('2d');
     this.drawCircles();
@@ -60,39 +57,12 @@ export class AppComponent {
         )
       ) {
         thisComponent.paintCircle(circle);
-      }
-    });
-    this.ctx.canvas.addEventListener('mouseover', function (event) {
-      if (
-        thisComponent.ctx.isPointInPath(
-          circlePath,
-          event.clientX,
-          event.clientY
-        )
-      ) {
-        thisComponent.showCircleInfo(circle);
-      }
-    });
-    this.ctx.canvas.addEventListener('mouseout', function (event) {
-      if (
-        thisComponent.ctx.isPointInPath(
-          circlePath,
-          event.clientX,
-          event.clientY
-        )
-      ) {
-        thisComponent.hideCircleInfo();
+        thisComponent.logCircleInfo(circle);
       }
     });
   }
-  public showCircleInfo(circle) {
-    this.circle = circle;
-    this.tooltip.nativeElement.style.position = 'absolute';
-    this.tooltip.nativeElement.style.left = circle.positionX + 'px';
-    this.tooltip.nativeElement.style.top = circle.positionY + 'px';
-  }
-  public hideCircleInfo() {
-    this.circle = '';
+  public logCircleInfo(circle) {
+    console.log(JSON.stringify(circle));
   }
   public paintCircle(circle) {
     var rgbValue = this.hexToRgb(this.color);
